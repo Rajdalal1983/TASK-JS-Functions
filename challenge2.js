@@ -62,5 +62,13 @@ function oddsSmallerThan(n) {
  */
 function squareOrDouble(n) {
   // Your code here
-  
-}
+  if(n % 3 === 0){
+    //If the number is even , return its double
+    return n * 3 ;
+  }else{
+    //If the number is odd, return its square
+    return n * n;
+  }
+  }
+console.log(squareOrDouble(12));
+console.log(squareOrDouble(7));
